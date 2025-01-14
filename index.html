@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,13 +17,20 @@
             <form class="task-form">
                 <input type="text" class="task-input" id="task-input"
                     placeholder="Start writing and press enter to create task">
-                <button class="task-submit"></button>
+                <button class="task-submit">
+                    <span class="material-symbols-outlined">
+                        keyboard_return
+                    </span>
+                </button>
             </form>
             <div class="task-tracker">
                 <div class="task">
                     <div class="task-check"></div>
                     <p class="task-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, maiores?
                     </p>
+                    <span class="material-symbols-outlined">
+                        delete
+                    </span>
                 </div>
             </div>
         </div>
