@@ -118,3 +118,7 @@
 .task-check.checked .task-check-box {
     background: #f8f8f8;
 }
+
+del {
+    color: #757575;
+}
